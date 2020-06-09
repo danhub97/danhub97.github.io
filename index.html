@@ -1,9 +1,64 @@
 <!doctype html>
-<html>
-  <head>
-    <title>Welcome to my webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<html lang="en">
+	<!-- Metadata -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="custom.css">
+		<title>Daniel J. Hubbell </title>
+	</head>
+
+	<!-- Body -->
+	<body>
+		
+		<!-- Main body -->
+		<div id="main" class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light rounded m-2">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbar10">
+            <ul class="navbar-nav nav-fill w-100">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact me</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+			<!-- Jumbotron -->
+			<div class="jumbotron text-center m-2">
+				<h1 class="display-3">Daniel J. Hubbell</h1>
+				<p>Mathematics student, data nut and hopeless procrastinator.</p>
+			</div>
+
+			
+			<div id="welcome" class="container rounded-lg p-5">
+				<h3>Welcome to my website!</h3>
+				
+			</div>
+		</div>
+		
+		<!-- Bootstrap includes -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script>
+			$(document).ready(function(){
+				$('[data-toggle="tooltip"]').tooltip();   
+			});
+		</script>
+				
+	</body>
 </html>
